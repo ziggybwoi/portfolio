@@ -1,0 +1,199 @@
+body {
+    font-family: 'SF Pro Display', sans-serif; 
+    background-color: #18151fe6; 
+    color: #dad9bc;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SF Pro Display', sans-serif; 
+  font-weight: bold;
+  color: #dad9bc;
+}
+  
+a {
+  text-decoration: none;
+  color: #dad9bc; 
+}
+  
+a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #dad9bc;
+}
+
+.get-in-touch {
+  text-decoration: underline;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.get-in-touch:hover {
+    color: #18151fe6;
+}
+
+.tech-stack {
+  text-decoration: underline;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.tech-stack:hover {
+    color: #18151fe6;
+}
+
+/*diri lang ta danay asta a */
+  
+  /* Sidebar Styles */
+
+.sidebar {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #284868;
+    min-height: 100vh;
+    padding: 15px; 
+    width: 220px; 
+    border-right: 1px solid #18151fe6; 
+  }
+  
+.sidebar .nav-link {
+  color: #dad9bc;
+  padding: 8px; 
+   
+}
+  
+.sidebar .nav-link.active {
+  font-weight: bold;
+  color: #dad9bc;
+  background-color: #18151fe6; 
+}
+  
+.sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #18151fe6;
+}
+
+  /* Main Content Styles */
+  
+main {
+  padding: 20px;
+}
+  
+main h1 {
+  margin-top: 0;
+}
+  
+  /* Current Date Styles */
+  
+#current-date {
+  font-size: 18px;
+  color: #dad9bc;
+  position: absolute; 
+  bottom: 20px; 
+  left: 20px;    
+}
+  
+  /* Para mag responsive */
+  
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .sidebar .nav-link {
+    padding: 5px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  }
+  
+@media (max-width: 480px) {
+  .sidebar {
+    padding: 5px;
+  }
+  
+  .sidebar .nav-link {
+    padding: 2px;
+  }
+  
+  main {
+    padding: 5px;
+  }
+}
+
+/* diri lang ta danay */
+  /* Kaway kaway */
+.waving-hand {
+  display: inline-block;
+  animation: wave 2s infinite;
+}
+  
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px; /* adjust the width and height to your needs */
+  height: 150px;
+}
+
+.dropdown-menu {
+  font-family: 'SF Pro Display', sans-serif;
+  background-color: #284868;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.dropdown-item {
+  color: #dad9bc;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+  
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #18151fe6;
+}
+  
+.dropdown-item.active {
+  color: #dad9bc;
+  background-color: #18151fe6; 
+ }
